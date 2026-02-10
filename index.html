@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nada Aldhebani | Software Engineering Portfolio" />
+    <title>Nada Aldhebani | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Top Nav -->
+    <header class="nav">
+      <div class="nav__brand">Nada Aldhebani</div>
+
+      <nav class="nav__links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certs">Certifications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="assets/CV/Nada_T_Resume.pdf"
+         class="btn btn--ghost"
+         target="_blank"
+         rel="noopener">
+        Download CV
+      </a>
+
+    </header>
+
+    <main class="wrap">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero__content">
+          <p class="tag">Software Engineering • UI/UX • Front-End</p>
+
+          <h1>Hi, I’m Nada 👋</h1>
+
+          <p class="lead">
+            Software Engineering student interested in <b>UI/UX</b> and <b>Front-End Development</b>.
+            I build clean, user-centered interfaces and practical web solutions.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero__meta">
+            <span>University of Jeddah (UJ)</span>
+            <span>GPA: 4.3 / 5.0</span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="mini">
+            <h3>Quick Info</h3>
+            <ul>
+              <li><b>Focus:</b> UI/UX + Front-End</li>
+              <li><b>Location:</b> Jeddah, Saudi Arabia</li>
+              <li>
+                <b>Email:</b>
+                <a href="mailto:althebaninada@gmail.com">althebaninada@gmail.com</a>
+              </li>
+              <li><b>GitHub:</b> <span id="ghPlaceholder">Loading…</span></li>
+              <li><b>LinkedIn:</b> <a href="#" id="liLink">Open Profile</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <h2>About</h2>
+        <p>
+          Software Engineering student at <b>University of Jeddah (UJ)</b> with a strong academic background
+          (<b>GPA 4.3/5.0</b>). I’m passionate about creating simple, modern, and user-friendly experiences.
+          I enjoy turning ideas into clear interfaces and building web projects with attention to detail.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Front-End</h3>
+            <p>HTML • CSS • JavaScript</p>
+          </div>
+          <div class="card">
+            <h3>Programming</h3>
+            <p>Java • C • SQL</p>
+          </div>
+          <div class="card">
+            <h3>Strengths</h3>
+            <p>UI/UX mindset • Problem solving • Teamwork • Fast learning</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+          <!-- StudyMate -->
+          <article class="project">
+            <div class="project__media slider" data-project="studymate">
+              <button class="slider__btn slider__btn--left" aria-label="Previous">‹</button>
+
+              <div class="slider__track">
+                <img src="assets/projects/studymate-1.jpg" alt="StudyMate screenshot 1" />
+                <img src="assets/projects/studymate-2.jpg" alt="StudyMate screenshot 2" />
+                <img src="assets/projects/studymate-3.jpg" alt="StudyMate screenshot 3" />
+              </div>
+
+              <button class="slider__btn slider__btn--right" aria-label="Next">›</button>
+              <div class="slider__dots"></div>
+            </div>
+
+            <div class="project__info">
+              <h3>StudyMate</h3>
+              <p>
+                A student-focused web platform for managing study groups and academic tasks.
+              </p>
+              <p class="muted"><b>Tools:</b> HTML, CSS, JavaScript</p>
+
+              <div class="project__links">
+                <a class="btn btn--ghost"
+                   href="https://github.com/elafalghamdi/StudyMate-Project"
+                   target="_blank"
+                   rel="noopener">
+                   GitHub Repo
+                </a>
+              </div>
+
+            </div>
+          </article>
+
+          <!-- ParkNGo -->
+          <article class="project">
+            <div class="project__media slider" data-project="parkngo">
+             
+
+              <div class="slider__track">
+                <img src="assets/projects/parkngo-1.jpg" alt="ParkNGo screenshot 1" />
+              
+              </div>
+
+              
+              <div class="slider__dots"></div>
+            </div>
+
+            <div class="project__info">
+              <h3>ParkNGo</h3>
+              <p>
+                A smart parking management system concept focused on improving parking organization and availability.
+              </p>
+              <p class="muted"><b>Type:</b> UI/UX Design (Figma)</p>
+
+
+              <div class="project__links">
+                <a class="btn btn--ghost"
+                   href="https://www.figma.com/design/d1qAS6YuFTYLIX2SXBQBDr/ParkNGo-Application?node-id=0-1&p=f&t=18sDsT0vDEHiZaBZ-0"
+                   target="_blank"
+                   rel="noopener">
+                   View Figma Design
+                </a>
+
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section" id="certs">
+        <h2>Certifications & Honors</h2>
+        <ul class="list">
+          <li><b>Fundamentals of Artificial Intelligence</b> — SDAIA (2025)</li>
+          <li><b>AI Concepts & Advanced Applications</b> — SDAIA (2025)</li>
+          <li><b>Academic Excellence Certificate</b> — University of Jeddah</li>
+          <li><b>C++ 101 & 102</b> — Tuwaiq Academy (Satr) (2023)</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <div class="contact-buttons">
+          <a href="mailto:althebaninada@gmail.com" class="contact-btn">
+            Email
+          </a>
+
+          <a href="https://github.com/althebaninada"
+             class="contact-btn"
+             target="_blank">
+            GitHub
+          </a>
+
+          <a href="https://www.linkedin.com/in/nada-althebani-959194335"
+             class="contact-btn"
+             target="_blank">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
+
+      <footer class="footer">
+        <p>© <span id="year"></span> Nada Aldhebani</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
