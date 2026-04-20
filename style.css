@@ -5,7 +5,7 @@
   --text: rgba(255,255,255,.92);
   --muted: rgba(255,255,255,.65);
 
-  /* مستوحى من StudyMate بس فخم ومختلف */
+  
   --mint: rgba(168, 255, 214, .35);
   --pink: rgba(255, 170, 210, .25);
   --blue: rgba(120, 180, 255, .18);
@@ -265,4 +265,7 @@ h1{ margin: 12px 0 10px; font-size: 2.35rem; }
 .contact-btn:hover{
   background: rgba(255,255,255,0.14);
   transform: translateY(-1px);
+}
+#projects > article.project {
+  margin-top: 14px;
 }
